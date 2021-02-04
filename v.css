@@ -1,0 +1,90 @@
+body{
+    margin: 100px 30px;
+    padding: 50px 50px;
+    background-image: url('img.jng4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkorange;
+    font-family: sans-serif;
+}
+.box{
+    width: 200px;
+    padding: 100px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: cadetblue;
+    text-align: center;
+}
+.box h2{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type ="text"], .box input[type ="password"]{
+    border-radius: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: blue;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type ="submit"]{
+    border-radius: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: blue;
+    border-radius: 24px;
+    transition: 0.25s; 
+    cursor: pointer;
+}
+.box input[type ="submit"]:hover{
+    background: #2ecc2e;
+    transition: 1s ease;
+}
+.box input[type ="text"]:hover{
+    background: darkred;
+    transition: 1s ease;
+}
+.box input[type ="password"]:focus{
+    width: 200px;
+    border-color: chocolate;
+}
+ .box input[type ="password"]:hover{
+    background: #000000;
+    transition: 1s ease;
+}
+.box h2:hover{
+    background: blueviolet;
+    transition: 1s ease;
+}
+h4{
+    margin-left: 20px;
+    font-size: 20px;
+    color: crimson;
+}
+h4:hover{
+    background: #000000;
+    transition: 0.6s ease;
+}
+input:hover{
+    background: darkorange;
+    transition: 1s ease;
+
+}
+
+    
